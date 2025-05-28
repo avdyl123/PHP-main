@@ -4,15 +4,12 @@ $user = "root";
 $pass = "";
 
 try{
-    $conn = new PDD("mysql:host=$host",$user.$pass);
+    $conn = new PDO("mysql:host=$host",$user,$pass);
     $sql = "Create database testdb";
     $conn->exec($sql);
     echo "Database is created";
 
-}catch (Exception $e){
-    echo "Database not created, something went wrong"
+}catch(Exception $e){
+    echo "Database not created, something went wrong";
 }
-
-
-
 ?>

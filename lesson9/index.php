@@ -6,7 +6,6 @@
             <input type="text" name="name" placeholder="Name"><br>
             <input type="text" name="surname" placeholder="Surname"><br>
             <input type="email" name="email" placeholder="Email"><br>
-            <input type="submit" name="submit" placeholder="Submit"><br>
             <button type="submit" name="submit">ADD</button>
         </form>
     </body>
